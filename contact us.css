@@ -1,0 +1,83 @@
+  
+  
+        .item{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            
+           
+        }
+        .box{
+            width: 40%;
+            height: 40%;
+            margin-top: 60px;
+        }
+
+        
+
+        .box input[type=text], select, textarea {
+            width: 500px;
+            padding: 8px; /* Some padding */ 
+            border: 1px solid #C09578; /* Gray border */
+            border-radius: 4px; /* Rounded borders */
+            box-sizing: border-box; /* Make sure that padding and width stays in place */
+            margin-top: 6px; /* Add a top margin */
+            margin-bottom: 16px; /* Bottom margin */
+            resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+         }
+
+         .box input[type=number], select, textarea {
+            width: 500px;
+            margin-left: 15px;
+            padding: 8px; /* Some padding */ 
+            border: 1px solid #C09578; /* Gray border */
+            border-radius: 4px; /* Rounded borders */
+            box-sizing: border-box; /* Make sure that padding and width stays in place */
+            margin-top: 6px; /* Add a top margin */
+            margin-bottom: 16px; /* Bottom margin */
+            resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+           
+         }
+         .box input[type=email], select, textarea {
+            width: 500px;
+            margin-left: 15px;
+            padding: 8px; /* Some padding */ 
+            border: 1px solid #C09578; /* Gray border */
+            border-radius: 4px; /* Rounded borders */
+            box-sizing: border-box; /* Make sure that padding and width stays in place */
+            margin-top: 6px; /* Add a top margin */
+            margin-bottom: 16px; /* Bottom margin */
+            resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+         }
+
+        .box input[type=submit] {
+    background-color: #C09578;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .box input[type=submit]:hover {
+    background-color: rgb(138,24,24);
+  }
+
+  .box label{
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+  }
+.box1 h1{
+    border-bottom: 1px solid black;
+}
+.box{
+    box-shadow: 2px 3px 3px 4px  whitesmoke;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+.box label{
+    margin-left: 15px;
+}
+.box input[type=text], select, textarea{
+    margin-left: 15px;
+}
